@@ -1,0 +1,16 @@
+{
+  "name": "name-collector",
+  "version": "1.0.0",
+  "description": "Simple site where visitors submit names and owner can view them",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-basic-auth": "^1.2.0",
+    "express-rate-limit": "^6.7.0",
+    "helmet": "^7.0.0",
+    "sanitize-html": "^2.11.0"
+  }
+}
